@@ -1,0 +1,5 @@
+branch_id,branch_name,branch_demand_weight,timezone,data_provenance
+BR01,Colombo,0.46,Asia/Colombo,SYNTHETIC_SIMULATION
+BR02,Kandy,0.22,Asia/Colombo,SYNTHETIC_SIMULATION
+BR03,Galle,0.18,Asia/Colombo,SYNTHETIC_SIMULATION
+BR04,Negombo,0.14,Asia/Colombo,SYNTHETIC_SIMULATION

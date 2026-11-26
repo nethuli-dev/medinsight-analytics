@@ -1,0 +1,21 @@
+{
+  "project": "MedInsight Analytics",
+  "dataset_type": "synthetic_simulation",
+  "random_seed": 42,
+  "appointment_count": 100000,
+  "date_start": "2025-01-01",
+  "date_end": "2025-12-31",
+  "currency": "LKR",
+  "country_context": "Sri Lanka-inspired demonstration assumptions; not real hospital data",
+  "tables": [
+    "patients.csv",
+    "doctors.csv",
+    "branches.csv",
+    "departments.csv",
+    "appointments.csv",
+    "doctor_schedules.csv",
+    "payments.csv",
+    "satisfaction.csv"
+  ],
+  "warning": "Do not represent these simulated records or metrics as observed hospital facts."
+}
