@@ -1,23 +1,29 @@
-# Python
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
 __pycache__/
 *.py[cod]
 
-# Virtual environments
-.venv/
-venv/
-
 # Jupyter
 .ipynb_checkpoints/
+notebooks/*_backup.ipynb
 
-# Data files
-data/raw/*.csv
-data/processed/*.csv
-
-# Environment variables
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
 
-# OS
+# Generated datasets and raw source data
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Operating system and editor files
 .DS_Store
-
-# IDE
 .vscode/
